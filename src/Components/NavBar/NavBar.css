@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+}
+
+.nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 3em 0;
+    background: #FFF7ED;
+}
+
+.van {
+  width: 40%;
+}
+
+.SVG_box {
+  width: 100%;
+}
+
+.SVG {
+  width: 144px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
