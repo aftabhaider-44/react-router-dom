@@ -1,0 +1,45 @@
+.back_container {
+    width: 95%;
+    margin: 2rem auto 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.color {
+    color: #5f656c95;
+}
+
+.layout_container {
+    width: 91%;
+    margin: 3rem auto 0.5rem auto;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.van_info {
+    width: 200px;
+}
+
+.navBar {
+    width: 91%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #5f656c95;
+}
+
+.link:hover {
+    color: #3b3b3b;
+    text-decoration-line: underline;
+}
+
+.current_link {
+    color: #3b3b3b;
+    text-decoration-line: underline;
+}

@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     document.body.style.overflowY =
       location.pathname == "/about" ? "scroll" : "hidden";
-      return () => {
+    return () => {
       document.body.style.overflowY = "scroll";
     };
   }, [location.pathname]);

@@ -22,9 +22,21 @@
   width: 144px;
 }
 
+.link_box {
+  display: flex;
+  gap: 20px;
+}
+
 .nav__link {
   text-decoration: none;
   color: #4D4D4D;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.nav__link:hover, .active_nav__link {
+  color: #161616;
+  text-decoration: underline;
   font-weight: 600;
   font-size: 1.2rem;
 }
