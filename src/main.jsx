@@ -12,7 +12,7 @@ import HostVans from "./Components/Host/HostVans/HostVans.jsx";
 import VanDetail from "./Components/VanDetail/VanDetail.jsx";
 import HostVansDetail from "./Components/Host/HostVans/HostVansDetail.jsx";
 import Detail from "./Components/Host/HostLayout/HostVansDetailNav/Detail.jsx";
-import Pricing from "./Components/Host/HostLayout/HostVansDetailNav/pricing.jsx";
+import Pricing from "./Components/Host/HostLayout/HostVansDetailNav/Pricing.jsx";
 import Photos from "./Components/Host/HostLayout/HostVansDetailNav/Photos.jsx";
 import "./Main Components/server.js";
 
