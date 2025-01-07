@@ -1,7 +1,7 @@
 import { useOutletContext } from "react-router-dom";
 
 const Detail = () => {
-  const { van } = useOutletContext();
+  const van = useOutletContext();
 
   if (!van)
     return <h3 style={{ textAlign: "center", paddingTop: "80px" }}>Loading</h3>;

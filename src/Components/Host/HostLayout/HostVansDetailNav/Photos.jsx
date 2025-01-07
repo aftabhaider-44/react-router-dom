@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router-dom";
 
 const Photos = () => {
 
-  const { van } = useOutletContext();
+  const van = useOutletContext();
   
 
   if (!van)
